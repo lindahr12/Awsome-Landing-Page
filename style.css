@@ -1,0 +1,111 @@
+html
+{
+	font-family: "helvetica neue", "Arial", sans-serif;
+}
+body
+{
+	background-color: black;
+	margin: 0;
+}
+header
+{
+	height: 80px;
+	background-color: white;
+}
+#header-container
+{
+	width: 80%;
+	margin: auto;
+
+}
+
+.col-3
+{
+	
+	width: 33%;
+	float: left;/*order*/
+}
+.logo
+{
+	padding-top: 32px;
+}
+.menu
+{
+     margin-top:32px;  
+}
+.menu li 
+{
+     list-style: none;
+     display: inline;
+     font-size: .85em;
+     color: #8e8e8e;
+     padding-right: 30px;
+
+}
+.getStartedbtn
+{
+	background-color: green;
+	border-radius: 28px;
+	-moz-border-radius : 28px;
+	-webkit-border-radius:20px;
+	text-decoration: none;
+	color: white;
+	padding: 10px 26px;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 18px;
+	float: right;
+}
+
+#top-section-main
+{
+	background-image: url(images/Friends.jpg);
+    height: 740px;
+    border: none;
+}
+#top-section-content
+{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+}
+#top-section-content h1
+{
+	color: white;
+	font-size: 4em;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 100px;
+	margin-bottom: 10px;
+}
+#top-section-content p
+{
+	color: white;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-align: center;
+	
+
+}
+.play-button
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 110px;
+
+}
+.main-form h6
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: .9em;
+	font-weight: 100;
+	text-align: center;
+
+
+}
