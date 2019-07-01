@@ -4,8 +4,15 @@ html
 }
 body
 {
-	background-color: black;
+	background-color: #ffffff;
 	margin: 0;
+
+}
+p{
+		font-family: "helvetica neue", "Arial", sans-serif;
+        color: #5d6660;
+        font-size: 16px;
+        line-height: 24px;
 }
 header
 {
@@ -44,7 +51,7 @@ header
 }
 .getStartedbtn
 {
-	background-color: green;
+	background-color: #6dc77a;
 	border-radius: 28px;
 	-moz-border-radius : 28px;
 	-webkit-border-radius:20px;
@@ -106,6 +113,79 @@ header
 	font-size: .9em;
 	font-weight: 100;
 	text-align: center;
+}
+.main-form input
+{
+	margin: 0;
+	width: 30%;
+	height: 40px;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding-left:15px;
+    border: none;
+    font-weight: 100;
+}
+.main-form button
+{
+	margin: 0;
+	width: 30%;
+	height: 42px;
+	font-family: sans-serif;
+	font-size: 15px;
+	padding-left: 15px;
+	font-weight: 100;
+	background-color: #6dc77a;
+	border: none;
+	color: white;
+}
+#feature-section 
+{
+     padding-top: 100px;
+
+}
+.feature-section-title
+{
+	width: 70%;
+	text-align: center;
+	font-weight: 200;
+	line-height: 1.5em;
+	margin: auto;
+	padding-bottom: 100px;
+}
+.feature-section-title span
+{
+	background-color: #6dc77a;
+	color: #ffffff;
+	padding : 2px;
+}
+.Feature-content
+{
+	margin: auto;
+	width: 80%;
+	text-align: center;
 
 
+	
+}
+.Feature-content .col-3 img
+{
+	width: 100%;
+
+}
+.Feature-content .col-3 p
+{
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.Feature-content .col-3
+{
+	padding: 10px;
+	width: 30%;
+}
+
+#showcase
+{
+	margin: auto;
+	width: 80%;
 }
